@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HBD bearr Dari Alika</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body
+    style="
+      background-image: url(gambbarr/lucu.jpg);
+      background-size: cover;" 
+    class="flex justify-center h-screen w-full items-center"
+  >
+    <div
+      class="bg-white border px-5 py-6 border-2 border-gray-300 shadow-lg shadow-blue-300 rounded-3xl text-center animate__animated animate__backInDown m-10 w-80"
+      id="kartu"
+    >
+    <img src="gambbarr/Screenshot_20230410-224305_Drive_waifu2x_art_noise3.png" alt="" class="rounded-xl">
+    <h1 class= "font-bold tekt-slate-80 text-2xl animate__animated animate__pulse animate__infinite"> Selamat Ulang tahun </h1>
+      <h1 class="text-md">Happy Birthday Sayang Semoga Sehat terus dan panjang umur selalu</h1>
+      <h1
+        class="text-3xl text-blue-500 font-bold animate__animated animate__pulse animate__infinite"
+      >
+        Spesial Untuk
+      </h1>
+      <button
+      class="p-2 bg-blue-600 text-white rounded mt-5 hover:bg-blue-900 transition ease-in w-60 animate__animated animate__delay-1s animate__tada"
+      onclick="tombolbearr()"
+    >
+      Kak Love
+      </button>
+
+      <button
+        class="p-2 bg-blue-600 text-white rounded mt-2 hover:bg-blue-900 transition ease-in w-60 animate__animated animate__delay-1s animate__tada"
+        onclick="tombolcacam()"
+      >
+        Ade Cacam
+      </button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+    <script>
+      confetti({
+        particleCount: 100,
+        spread: 70,
+        origin: { y: 0.6 },
+      });
+      let kartu = document.getElementById("kartu");
+      function tombolbearr() {
+        kartu.innerHTML = `
+        <img src="gambbarr/Screenshot_20230410-224305_Drive_waifu2x_art_noise3.png" alt="" class="rounded-xl">
+        <h1 class="font-semibold text-wrap animate__animated animate__zoomIn">
+      Selamat ulang tahun, bro! Semoga tahun ini makin banyak kebahagiaan,
+      rezeki lancar, dan segala impian jadi kenyataan. Semoga kita terus bisa
+      bareng-bareng, seru-seruan, dan saling dukung ya! 🎉🎂
+    </h1>
+    <h2 class="mt-3 animate__animated animate__fadeIn">
+      - Dari : Alikuyy -
+    </h2>
+    <button
+      class="p-2 bg-slate-600 text-white rounded mt-5 hover:bg-slate-900 transition ease-in w-full animate__animated animate__delay-1s animate__tada"
+      onclick="lanjut()"
+    >
+      Lanjut
+    </button>
+    `;
+      }
+      function lanjut() {
+        kartu.innerHTML = `
+        
+        <h1 class="font-semibold text-wrap animate__animated animate__zoomIn">
+      Hari ini adalah hari yang spesial, hari di mana dunia menjadi lebih cerah karena kehadiranmu. Setiap langkah yang telah kau lalui penuh dengan perjuangan dan cerita indah yang membentuk dirimu hari ini. Semoga di usia yang baru ini, semua impian dan harapan yang kau gantungkan semakin mendekati kenyataan. 🎉🎂
+    </h1>
+    <h2 class="mt-3 animate__animated animate__fadeIn">
+      - Dari : Alikuyy -
+    </h2>
+    <button
+      class="p-2 bg-slate-600 text-white rounded mt-5 hover:bg-slate-900 transition ease-in w-full animate__animated animate__delay-1s animate__tada"
+      onclick="neks()"
+    >
+      Lagi
+    </button>
+    `;
+      }
+      function neks() {
+        kartu.innerHTML = `    <h1 class="font-semibold text-wrap animate__animated animate__zoomIn">
+      Ulang tahun bukan hanya soal bertambahnya angka, tapi juga tentang bertambahnya kebijaksanaan, keberanian, dan kebahagiaan. Semoga setiap pengalaman yang datang membawa pelajaran berharga dan setiap tantangan yang muncul menjadi batu loncatan menuju masa depan yang lebih gemilang. Teruslah menjadi pribadi yang menginspirasi dan membawa kebaikan bagi banyak orang. 🎉🎂
+    </h1>
+    <h2 class="mt-3 animate__animated animate__fadeIn">
+      - Dari : Alikuyy -
+    </h2>
+    <button
+      class="p-2 bg-slate-600 text-white rounded mt-5 hover:bg-slate-900 transition ease-in w-full animate__animated animate__delay-1s animate__tada"
+      onclick="refresh()"
+    >
+      Tutup
+    </button>
+    `;
+      }
+
+      function tombolcacam() {
+        kartu.innerHTML = `    <h1 class="font-semibold text-wrap animate__animated animate__zoomIn">
+      Di hari yang penuh berkah ini, aku berdoa agar kebahagiaan selalu menyertaimu. Semoga kesehatan, rezeki yang melimpah, dan kebersamaan dengan orang-orang tercinta selalu mengisi hari-harimu. Jangan lupa untuk menikmati setiap momen, karena hidup ini adalah perjalanan yang penuh warna. 🎉🎂
+    </h1>
+    <h2 class="mt-3 animate__animated animate__fadeIn">
+      - Dari : Alikuyy -
+    </h2>
+    <button
+      class="p-2 bg-slate-600 text-white rounded mt-5 hover:bg-slate-900 transition ease-in w-full animate__animated animate__delay-1s animate__tada"
+      onclick="lanjuttt()"
+    >
+      lanjut sayang 
+    </button>
+    `;
+      }
+      function lanjuttt() {
+        kartu.innerHTML = `    <h1 class="font-semibold text-wrap animate__animated animate__zoomIn">
+      Terima kasih telah menjadi bagian dari hidup banyak orang, membawa senyuman, dan menyebarkan semangat positif. Hari ini adalah hari untuk merayakan dirimu, untuk bersyukur atas semua yang telah terjadi, dan untuk menatap masa depan dengan penuh harapan. Selamat ulang tahun, semoga segala kebaikan selalu menyertaimu!! 🎉🎂
+    </h1>
+    <h2 class="mt-3 animate__animated animate__fadeIn">
+      - Dari : Alikuyy -
+    </h2>
+    <button
+      class="p-2 bg-slate-600 text-white rounded mt-5 hover:bg-slate-900 transition ease-in w-full animate__animated animate__delay-1s animate__tada"
+      onclick="yess()"
+    >
+      mau lagi gak? 
+    </button>
+    `;
+      }
+      function yess() {
+        kartu.innerHTML = `    <h1 class="font-semibold text-wrap animate__animated animate__zoomIn">
+      Nikmati hari ini dengan penuh sukacita, karena ini adalah harimu. Tiup lilin dengan penuh harapan, potong kue dengan penuh cinta, dan rayakan dengan orang-orang terdekat yang selalu mendukungmu. Selamat bertambah usia! 🎈💖
+    </h1>
+    <h2 class="mt-3 animate__animated animate__fadeIn">
+      - Dari : Alikuyy -
+    </h2>
+    <button
+      class="p-2 bg-slate-600 text-white rounded mt-5 hover:bg-slate-900 transition ease-in w-full animate__animated animate__delay-1s animate__tada"
+      onclick="refresh()"
+    >
+      Amiinn 
+    </button>
+    `;
+      }
+    
+      function refresh() {
+        location.reload();
+      }
+    </script>
+  </body>
+</html>
